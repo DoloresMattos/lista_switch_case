@@ -5,11 +5,21 @@
     */
 
     //ENTRADA
-
+     const numero = Number(prompt(`Me diga um número, e eu te direi se ele é par ou impar:`))
     
     //PROCESSAMENTO
+  switch (numero %2 ){
+    case "0": 
+    document.write("Número par!");
+        
+        break;
 
+    default:
+        document.write("Número impar!");
+        break;
+  }
+  
     
     //SAÍDA
-
+  
 </script>

@@ -15,8 +15,20 @@
     const turno = prompt(`Qual turno você estuda (M, V, N)?`);
     
     //PROCESSAMENTO
-
-    
+   
+    switch(turno){
+        case "M":
+            document.write("Bom dia!");
+            break;
+        case "V":
+            document.write("Boa tarde!");
+            break;
+        case "N":
+            document.write("Boa noite!");
+            break;
+        default:
+            document.write("Valor Inválido!");
+    }
     //SAÍDA
 
 </script>
